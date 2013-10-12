@@ -41,7 +41,7 @@
 	<!-- =========================================== -->
 	<modules>
 		<module>osgi-core-features</module>
-		<module>osgi-datasources-feature</module>
+		<module>osgi-datasources-features</module>
 		<module>osgi-shell</module>
 		<module>osgi-c3p0</module>
 	</modules>
