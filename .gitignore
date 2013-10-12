@@ -1,6 +1,5 @@
-*.class
-
-# Package Files #
-*.jar
-*.war
-*.ear
+target/
+.settings/
+activemq-data/
+.project
+.classpath
