@@ -40,11 +40,9 @@
 	<!-- Modules                                     -->
 	<!-- =========================================== -->
 	<modules>
-		<!-- Our bus features -->
 		<module>osgi-core-features</module>
-		<!-- Bus infrastructure -->
+		<module>osgi-datasources-feature</module>
 		<module>osgi-shell</module>
-		<!-- FUR-1021 -->
 		<module>osgi-c3p0</module>
 	</modules>
 
