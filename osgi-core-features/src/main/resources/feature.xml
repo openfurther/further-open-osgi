@@ -43,19 +43,19 @@
 	</feature>
 
 	<feature name="jdbc-mysql" version="${mysql.connector.java.version}">
-		<bundle><![CDATA[com.mysql.jdbc/com.springsource.com.mysql.jdbc/${mysql.connector.java.version}]]></bundle>
+		<bundle><![CDATA[mvn:com.mysql.jdbc/com.springsource.com.mysql.jdbc/${mysql.connector.java.version}]]></bundle>
 	</feature>
 
 	<feature name="jdbc-sqlserver-sybase" version="${jtds.version}">
-		<bundle><![CDATA[net.sourceforge.jtds/com.springsource.net.sourceforge.jtds/${jtds.version}]]></bundle>
+		<bundle><![CDATA[mvn:net.sourceforge.jtds/com.springsource.net.sourceforge.jtds/${jtds.version}]]></bundle>
 	</feature>
 
 	<feature name="jdbc-postgresql3" version="${postgres3.version}">
-		<bundle><![CDATA[org.postgresql/com.springsource.org.postgresql.jdbc3/${postgres3.version}]]></bundle>
+		<bundle><![CDATA[mvn:org.postgresql/com.springsource.org.postgresql.jdbc3/${postgres3.version}]]></bundle>
 	</feature>
 
 	<feature name="jdbc-postgresql4" version="${postgres4.version}">
-		<bundle><![CDATA[org.postgresql/com.springsource.org.postgresql.jdbc4/${postgres4.version}]]></bundle>
+		<bundle><![CDATA[mvn:org.postgresql/com.springsource.org.postgresql.jdbc4/${postgres4.version}]]></bundle>
 	</feature>
 	
 	<feature name="oracle-xmlparsers" version="${oracle.driver.version}">
