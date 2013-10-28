@@ -94,6 +94,7 @@
 	</feature>
 
 	<feature name="further-dependencies" version="${project.version}">
+		<bundle><![CDATA[mvn:org.apache.servicemix.bundles/org.apache.servicemix.bundles.jaxb-impl/${osgi.jaxb.impl.version}]]></bundle>
 		<bundle><![CDATA[mvn:commons-io/commons-io/${commons.io.version}]]></bundle>
 		<bundle><![CDATA[mvn:org.apache.commons/com.springsource.org.apache.commons.lang/${osgi.commons.lang.version}]]></bundle>
 		<bundle><![CDATA[mvn:org.apache.servicemix.bundles/org.apache.servicemix.bundles.jasypt/${osgi.jasypt.version}]]></bundle>
