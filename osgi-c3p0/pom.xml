@@ -33,7 +33,8 @@
 			org.hsqldb;resolution:=optional,
 			org.hsqldb.jdbc;resolution:=optional,
 			oracle.jdbc;resolution:=optional,
-			com.mysql.jdbc;resolution:=optional
+			com.mysql.jdbc;resolution:=optional,
+			com.ibm.db2.jcc;resolution:=optional
 		</further.osgi.import.pkg>
 		<further.osgi.fragment.host>
 			com.springsource.com.mchange.v2.c3p0
