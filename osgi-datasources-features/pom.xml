@@ -3,7 +3,7 @@
   <parent>
     <groupId>edu.utah.further.osgi</groupId>
     <artifactId>osgi</artifactId>
-    <version>1.4.0-SNAPSHOT</version>
+    <version>1.4.0</version>
   </parent>
   <artifactId>osgi-datasources-features</artifactId>
   <name>OSGi Data Source Features</name>
