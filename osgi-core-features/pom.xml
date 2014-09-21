@@ -24,7 +24,7 @@
 	<parent>
 		<artifactId>osgi</artifactId>
 		<groupId>edu.utah.further.osgi</groupId>
-		<version>1.4.1</version>
+		<version>1.4.2-SNAPSHOT</version>
 	</parent>
 	<artifactId>osgi-core-features</artifactId>
 	<name>OSGi Core Features</name>

@@ -6,7 +6,7 @@
 	<parent>
 		<artifactId>osgi</artifactId>
 		<groupId>edu.utah.further.osgi</groupId>
-		<version>1.4.1</version>
+		<version>1.4.2-SNAPSHOT</version>
 	</parent>
 	<modelVersion>4.0.0</modelVersion>
 	<artifactId>osgi-c3p0</artifactId>
