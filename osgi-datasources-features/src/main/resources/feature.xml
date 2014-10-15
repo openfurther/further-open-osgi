@@ -23,16 +23,9 @@
 	<!-- =========================================== -->
 	
 	<feature name="further-datasources" version="${project.version}">
-		<feature>further-omopv2-adapter</feature>
-		<feature>further-openmrsv1_9-adapter</feature>
+@DSCUSTOM-14@
 	</feature>
 
-	<feature name="further-omopv2-adapter" version="${project.version}">
-		<bundle><![CDATA[mvn:edu.utah.further.ds/ds-omopv2-adapter/${project.version}]]></bundle>
-	</feature>
-	
-	<feature name="further-openmrsv1_9-adapter" version="${project.version}">
-		<bundle><![CDATA[mvn:edu.utah.further.ds/ds-openmrsv1_9-adapter/${project.version}]]></bundle>
-	</feature>
+@DSCUSTOM-15@
 
 </features>
