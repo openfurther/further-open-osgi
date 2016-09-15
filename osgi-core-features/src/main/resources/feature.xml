@@ -62,6 +62,11 @@
 		<bundle><![CDATA[wrap:mvn:com.oracle/xmlparserv2/${oracle.xdk.version}]]></bundle>
 		<bundle><![CDATA[wrap:mvn:com.oracle/xdb/${oracle.xdk.version}]]></bundle>
 	</feature>
+
+	<feature name="sqljdbc4-osgi" version="4.0.2206.100">
+		<bundle><![CDATA[mvn:com.microsoft/sqljdbc4-osgi/4.0.2206.100]]></bundle>
+	</feature>
+
 	
 
 	<!-- Must be installed before spring orm to resolve optional binding without 

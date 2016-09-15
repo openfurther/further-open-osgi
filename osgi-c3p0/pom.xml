@@ -34,6 +34,8 @@
 			org.hsqldb.jdbc;resolution:=optional,
 			oracle.jdbc;resolution:=optional,
 			com.mysql.jdbc;resolution:=optional,
+			microsoft.sql;resolution:=optional,
+			com.microsoft.sqlserver.jdbc;resolution:=optional,
 			com.ibm.db2.jcc;resolution:=optional
 		</further.osgi.import.pkg>
 		<further.osgi.fragment.host>
